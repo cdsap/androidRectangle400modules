@@ -1,0 +1,25 @@
+package com.awesomeapp.articlecart
+
+import org.junit.Test
+import org.junit.Before
+import org.junit.runner.RunWith
+import org.junit.runners.JUnit4
+import org.junit.Rule
+import kotlinx.coroutines.test.runTest
+import kotlinx.coroutines.ExperimentalCoroutinesApi
+import org.junit.Assert.*
+import kotlin.test.assertTrue
+import kotlin.test.assertNotNull
+import kotlin.test.assertEquals
+import kotlin.test.assertFalse
+import com.awesomeapp.articlecart.*
+
+
+@OptIn(ExperimentalCoroutinesApi::class)
+class Model287_6Test {
+        @Test
+    fun `test model creation`() {
+        val model = Model287_6()
+        assertNotNull(model)
+    }
+}

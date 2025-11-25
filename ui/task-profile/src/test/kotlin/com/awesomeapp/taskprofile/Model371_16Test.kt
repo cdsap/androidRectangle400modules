@@ -1,0 +1,25 @@
+package com.awesomeapp.taskprofile
+
+import org.junit.Test
+import org.junit.Before
+import org.junit.runner.RunWith
+import org.junit.runners.JUnit4
+import org.junit.Rule
+import kotlinx.coroutines.test.runTest
+import kotlinx.coroutines.ExperimentalCoroutinesApi
+import org.junit.Assert.*
+import kotlin.test.assertTrue
+import kotlin.test.assertNotNull
+import kotlin.test.assertEquals
+import kotlin.test.assertFalse
+import com.awesomeapp.taskprofile.*
+
+
+@OptIn(ExperimentalCoroutinesApi::class)
+class Model371_16Test {
+        @Test
+    fun `test model creation`() {
+        val model = Model371_16()
+        assertNotNull(model)
+    }
+}
